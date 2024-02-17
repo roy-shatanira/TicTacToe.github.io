@@ -43,7 +43,6 @@ boxes.forEach((box)=>{
 
         if(count===9 && !isWinner){
             gameDraw();
-            body.style.backgroundColor="#7FC8F8";
         }
     });
 });
